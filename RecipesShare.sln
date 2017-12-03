@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipesShare", "RecipesShare\RecipesShare.csproj", "{F21FDF39-DC6F-459F-BAE2-9E505853EBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21FDF39-DC6F-459F-BAE2-9E505853EBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21FDF39-DC6F-459F-BAE2-9E505853EBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21FDF39-DC6F-459F-BAE2-9E505853EBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21FDF39-DC6F-459F-BAE2-9E505853EBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A34EB13-9B7F-4226-8B69-34E3BE668999}
+	EndGlobalSection
+EndGlobal
