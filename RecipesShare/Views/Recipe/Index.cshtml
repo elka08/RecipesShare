@@ -1,0 +1,36 @@
+﻿@model RecipesShare.Models.RecipeModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>RecipeModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ContributorName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ContributorName)
+        </dd>
+    </dl>
+</div>
+<div>
+       <a asp-action="Index">Back to List</a>
+</div>
