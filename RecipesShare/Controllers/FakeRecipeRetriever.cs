@@ -9,8 +9,8 @@ namespace RecipesShare.Controllers
             var recipe = new RecipeModel();
 
 
-            recipe.ContributorName = "Elky Krupka";
-            recipe.RecipeDescription = "30 Min Crumb Cake";
+            recipe.ContributorName = "Yehuda Krupka";
+            recipe.RecipeDescription = "30 Min Crumb Cake";   
             recipe.RecipeUrl = "https://www.bostoncoffeecake.com/fullsize/11/8";
 
             return recipe;
